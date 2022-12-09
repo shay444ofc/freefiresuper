@@ -1,0 +1,26 @@
+{
+  "name": "freefiresuper",
+  "version": "1.0.0",
+  "description": "Um módulo para node que pode interagir com a API do jogo Garena Free Fire!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shay444ofc/freefiresuper.git"
+  },
+  "keywords": [
+    "freefire",
+    "garena",
+    "ff",
+    "freefirejs",
+    "freefiresuper"
+  ],
+  "author": "Shay444",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shay444ofc/freefiresuper/issues"
+  },
+  "homepage": "https://github.com/shay444ofc/freefiresuper#readme"
+}
