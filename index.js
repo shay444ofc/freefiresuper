@@ -8,7 +8,7 @@ module.exports = {
     },
     player:{
         getPlayerInfo:player.getPlayerInfo
-    }
+    },
     server:{
         getServerStatus:server.getServerStatus
     }
