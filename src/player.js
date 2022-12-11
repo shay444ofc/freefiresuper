@@ -33,4 +33,6 @@ async function getPlayerInfo(playerId){
     }
 }
 
-module.exports = getPlayerInfo
+module.exports = {
+    getPlayerInfo,
+}

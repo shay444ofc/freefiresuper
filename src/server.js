@@ -37,4 +37,6 @@ async function getServerStatus(serverName){
         }
     }
 }
-module.exports = getServerStatus
+module.exports = {
+    getServerStatus,
+}

@@ -17,4 +17,6 @@ async function getVersionInfo(){
     }
 }
 
-module.exports = getVersionInfo
+module.exports = {
+    getVersionInfo,
+}
