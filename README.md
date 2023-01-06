@@ -36,7 +36,7 @@ Pegando uma nova versão caso ela exista:
 ```javascript
 const freefire = require("freefiresuper");
 
-freefire.version.getVersionInfo().then((versionInfo)=>{
+freefire.getVersionInfo().then((versionInfo)=>{
     if(versionInfo.newVersionAvailable == true){ 
         console.log(versionInfo.newVersion);
     }else{
@@ -51,7 +51,7 @@ Pegando o nome de algum jogador usando o seu ID:
 const freefire = require("freefiresuper");
 
 // Pegando o nome do jogador 123456789
-freefire.player.getPlayerInfo("123456789").then((playerInfo)=>{
+freefire.getPlayerInfo("123456789").then((playerInfo)=>{
     console.log(playerInfo.profile.nickname);
 });
 ```
@@ -59,19 +59,22 @@ freefire.player.getPlayerInfo("123456789").then((playerInfo)=>{
 
 ## Documentação
 
-#### `version.getVersionInfo()`:
+#### `getVersionInfo()`:
 - Retorna informações sobre a versão do jogo.
 
-#### `player.getPlayerInfo(playerId)`:
+#### `getPlayerInfo(playerId)`:
 - Retorna informações sobre algum jogador.
 
-#### `server.getServerStatus(serverName)`:
-- Retorna informações sobre algum servidor
-- `live`, `advance` e `review` são os servidores disponíveis!
+#### `getServerStatus(serverName)`:
+- Retorna informações sobre algum servidor.s disponíveis!
+
+### `getServerStatusAll()`
+- Retorna a informação sobre todos os servidores.
 
 ## Autores
 
 - [@shay444ofc](https://github.com/shay444ofc)
+- [@neodouglas](https://github.com/neodouglas)
 
 
 ## Etiquetas
